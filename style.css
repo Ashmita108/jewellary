@@ -1,0 +1,175 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.Full-body{
+	background-image: url('images/back.jpg');
+	background-size:100% 100%;
+	height: 100vh;
+	background-repeat: no-repeat;  
+}
+.header{
+	height: 8vh;
+	background: rgba(0,0,0,.5);
+}
+.header h2{
+	height: 35px;
+	font-weight: 500px;
+	margin: 20px;
+	float: left;
+	color: black;
+}
+.anchor-tag{
+	text-align: right;
+}
+.anchor-tag ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 20px;
+}
+.anchor-tag ul li a{
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+}
+.anchor-tag ul li a:hover{
+	background: yellow;
+	color: black;
+}
+.Main-Heading{
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	color: white;
+}
+.Main-Heading p{
+	letter-spacing: 2px;
+	padding-bottom: 20px; 
+}
+.Main-Heading h1{
+	font-size: 50px;
+	color: black;
+}
+.Main-Heading a{
+	font-size: 20px;
+	text-decoration: none;
+	padding: 10px;
+	border: 2px solid black;
+	color: black;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.Main-Heading a:hover{
+	transition: 1.5s;
+	background: yellow;
+	color: black;
+}
+.anchor-tag span{
+	font-size: 30px;
+	color: yellow;
+	margin: 20px;
+	cursor: pointer;
+	display: none;
+}
+@media only screen and (max-width: 900px){
+	.header h2{
+		font-size: 25px;
+	}
+	.anchor-tag ul li a{
+		font-size: 20px;
+	}
+	.header{
+		height: 11vh;
+	}
+}
+@media only screen and (max-width: 780px){
+	.anchor-tag ul li {
+		display: block;
+	}
+	.anchor-tag span{
+		display: block;
+	}
+	.anchor-tag ul{
+		display: none;
+	}
+}
+
+
+
+
+.subheading h1{
+	font-size: 50px;
+	color: black;
+	margin:8px;
+	padding: 150px;
+	padding-right: 10px;
+	
+}
+
+.subheading p{
+	font-size: 20px;
+	color: black;
+	padding-right: 10px;
+	position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+	
+}
+.subheading p{
+	position: absolute;
+	top: 130%;
+	left: 100%;
+	transform: translate(-50%,-50%);
+	color: black;
+}
+
+
+
+.heading h1{
+	font-size: 50px;
+	color: black;
+	margin:8px;
+	padding: 150px;
+	padding-right: 10px;
+	
+}
+
+.heading p{
+	font-size: 20px;
+	color: black;
+	padding-right: 10px;
+	position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+	
+}
+.heading p{
+	position: absolute;
+	top: 180%;
+	left: 100%;
+	transform: translate(-50%,-50%);
+	color: black;
+}
+
+.heading p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+
+
+
+
+
+
+
